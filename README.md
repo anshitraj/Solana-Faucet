@@ -1,73 +1,98 @@
-# Welcome to your Lovable project
+# 🚀 Solana Devnet Faucet
 
-## Project info
+A simple and elegant faucet web app for Solana Devnet that allows users to request free SOL tokens directly to their wallet address.
 
-**URL**: https://lovable.dev/projects/4148986c-a46a-4401-9a9b-3c96cdf6ca51
+---
 
-## How can I edit this code?
+## 📂 Project Structure
 
-There are several ways of editing your application.
+- **Frontend**: Built with React.js and styled using Tailwind CSS.
+- **Backend**: Node.js-based server to interact with the Solana Devnet and send SOL.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/4148986c-a46a-4401-9a9b-3c96cdf6ca51) and start prompting.
+## 🖥️ Live Preview
 
-Changes made via Lovable will be committed automatically to this repo.
+> (Add deployed link here if applicable)
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🛠️ Tech Stack
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- **Frontend**: React.js, Tailwind CSS
+- **Backend**: Node.js, Express.js
+- **Blockchain**: Solana Devnet
+- **Wallets**: Phantom, Solflare
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 📦 Installation
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Make sure you have **Node.js** and **npm** installed.
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+💻 Running the Project in VS Code
+▶️ Step 1: Start the Frontend
+bash
+Copy
+Edit
 npm run dev
-```
+This will start the React frontend (usually on port 5173).
 
-**Edit a file directly in GitHub**
+Make sure you're inside the main project directory before running the command.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+You can split the terminal to run the backend simultaneously.
 
-**Use GitHub Codespaces**
+⚙️ Step 2: Start the Backend
+bash
+Copy
+Edit
+cd backend
+npm install
+npm start
+This starts the backend server on port 3001.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Make sure the frontend is already running or in a split terminal.
 
-## What technologies are used for this project?
+📌 Features
+🔑 Users can enter their Solana wallet address.
 
-This project is built with:
+💸 Airdrop amount is randomly between 0.05 - 0.1 SOL.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+🌗 Dark and light theme toggle for better UX.
 
-## How can I deploy this project?
+✅ Wallet validation before airdrop.
 
-Simply open [Lovable](https://lovable.dev/projects/4148986c-a46a-4401-9a9b-3c96cdf6ca51) and click on Share -> Publish.
+🔒 Secure transfer using your own private wallet.
 
-## Can I connect a custom domain to my Lovable project?
+⚡ Fast and responsive UI.
 
-Yes, you can!
+📝 Notes
+You need to provide your own Solana wallet for the backend to send SOL.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Ensure your backend wallet is funded on the Solana Devnet.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+This faucet is for testing purposes only, do not use it on Mainnet.
+
+🤝 Contributing
+Feel free to fork the repo, raise issues or submit PRs.
+
+bash
+Copy
+Edit
+git checkout -b feature/my-feature
+git commit -m "Add new feature"
+git push origin feature/my-feature
+📄 License
+MIT License. Feel free to use and modify.
+
+🙌 Acknowledgements
+Solana Devnet & Web3.js
+
+Phantom Wallet
+
+Tailwind CSS
+
+Vite + React
